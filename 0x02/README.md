@@ -33,7 +33,7 @@ a + 1  = 11110001b
 Important note for this specific sniplet, neg instruction affects
 `CF - Carry Flag`. CF is set to 0 if source operand is 0 otherwise 1.
 
-[sbb][web-intel-sbb] means Integer Subtraction With Borrow. So it add the carry
+[sbb][web-intel-sbb] means Integer Subtraction With Borrow. So it adds the carry
 flag value to source operand then subtracts the result from destination operand.
 The end result will be written in destination operand.
 
