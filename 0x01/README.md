@@ -5,7 +5,7 @@
 | Challenge Name            | [0x01][challenge]                                |
 | Date                      | 11/08/2023                                       |
 | Challenge Author          | [xorpd][web-xorpd]                               |
-| Abstract                  | Zeroing registers                                |
+| Abstract                  | Calculation of fibonacci sequence                |
 | Tools                     | gdb, vim                                         |
 | Music                     | Pentagram - Maymunlar Gezegeni                   |
 
@@ -33,7 +33,8 @@ numbers are `0` and `1`,  this is the base Fibonacci Sequence:
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
 ```
 
-If we set `rax = 0` and `rdx = 1` then if we set `rcx = 4` at the end of the loop we will find 4th fibonacci number : `3`
+If we set `rax = 0` and `rdx = 1` then if we set `rcx = 4` at the end of the
+loop we will find 4th fibonacci number : `3`
 
 ## Final Thoughts
 

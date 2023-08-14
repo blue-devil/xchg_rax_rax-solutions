@@ -1,7 +1,7 @@
 # xchg rax, rax Solutions
 
 If there are riddles I am in! [xorpd][web-xorpd] had a great job and make a
-collection of small assembly sniplet of which he encountered while reverse
+collection of small assembly sniplets of which he encountered while reverse
 engineering. I had own a hard copy! The book only contains x86_64 assembly
 sniplets and no additional informations. On the amazon page of the boox xorpd
 states this:
