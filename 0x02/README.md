@@ -11,7 +11,7 @@
 
 ## Prologue
 
-Riddle 0x02 also a trickey one:
+Riddle 0x02 also a tricky one:
 
 ```nasm
 neg      rax
@@ -31,7 +31,7 @@ a + 1  = 11110001b
 ```
 
 Important note for this specific sniplet, neg instruction affects
-`CF - Carry Flag`. CF iset to 0 if source operand is 0 otherwise 1 
+`CF - Carry Flag`. CF is set to 0 if source operand is 0 otherwise 1.
 
 [sbb][web-intel-sbb] means Integer Subtraction With Borrow. So it add the carry
 flag value to source operand then subtracts the result from destination operand.
