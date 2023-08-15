@@ -55,7 +55,7 @@ _start:
     mov rbp, 0x5C7050305C705030
 
     ; =====================================================================
-    ; question start
+    ; riddle start
     xor eax, eax
     lea rbx, [0]
     loop $
@@ -64,7 +64,7 @@ _start:
     sub edi, edi
     push 0
     pop rbp
-    ; question end
+    ; riddle end
     ; =====================================================================
 
 exit:

@@ -34,7 +34,7 @@
 ; | Assemble, link and debug:                                             |
 ; | ========================                                              |
 ; | $ nasm -felf64 0x02.s                                                 |
-; | $ ld 0x01.o -o 0x02.out                                               |
+; | $ ld 0x02.o -o 0x02.out                                               |
 ; | $ gdb -q 0x02.out                                                     |
 ; |                                                                       |
 ; | Final executable does not print something to terminal, inspect the    |
@@ -51,11 +51,11 @@ _start:
     mov rax, -9
 
     ; =====================================================================
-    ; question start
+    ; riddle start
     neg      rax
     sbb      rax,rax
     neg      rax
-    ; question end
+    ; riddle end
     ; =====================================================================
 
 exit:
