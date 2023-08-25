@@ -11,6 +11,8 @@
 
 ## Prologue
 
+[Previous][prev] | [Next][next]
+
 This one is pretty obvious for me! First look at the sniplet below:
 
 ```nasm
@@ -82,5 +84,7 @@ This project is licensed under the AGPLv3 license.
 [web-ei]:  https://gitlab.com/error.inside
 [web-xorpd]: https://github.com/xorpd
 [web-sct]: http://www.sctzine.com
+[prev]: ../0x03/README.md
+[next]: ../0x05/README.md
 [challenge]: https://www.xorpd.net/pages/xchg_rax/snip_04.html
 [web-ascii-table]: https://www.ascii-code.com/

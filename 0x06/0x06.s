@@ -18,21 +18,21 @@
 ; | @tester   : ErrorInside <errorinside@sctzine.com>                     |
 ; | @IDE      : ViM <Vi iMproved>                                         |
 ; | @template : Blue DeviL                                                |
-; | @date     : 17/08/2023                                                |
+; | @date     : 25/08/2023                                                |
 ; | @license  : AGPLv3                                                    |
 ; |_______________________________________________________________________|
 ; |                                                                       |
 ; |                   xorpd - "xchg rax, rax" Solutions                   |
-; |                                 0x05                                  |
+; |                                 0x06                                  |
 ; \_______________________________________________________________________/
 ; |                                                                       |
-; | Riddle 0x05 allows branching if rax value is between 5 and 9.         |
+; | Riddle 0x06 check if the given register is zero or signed             |
 ; |                                                                       |
 ; | Assemble, link and debug:                                             |
 ; | ========================                                              |
-; | $ nasm -felf64 0x05.s                                                 |
-; | $ ld 0x05.o -o 0x05.out                                               |
-; | $ gdb -q 0x05.out                                                     |
+; | $ nasm -felf64 0x06.s                                                 |
+; | $ ld 0x06.o -o 0x06.out                                               |
+; | $ gdb -q 0x06.out                                                     |
 ; |                                                                       |
 ; | Final executable does not print something to terminal, inspect the    |
 ; | effects by using gdb debugger.                                        |
@@ -47,18 +47,15 @@ SYS_EXIT        equ 60
     global _start
 _start:
     ; prepare registers
-    mov     rax, 8
+    mov     rax, -1
 
     ; =====================================================================
     ; riddle start
-    sub      rax,5
-    cmp      rax,4
+    not      rax
+    inc      rax
+    neg      rax
     ; riddle end
     ; =====================================================================
-    jna _inrange
-    jmp exit
-_inrange:
-    nop
 
 exit:
     ; void exit(int status);

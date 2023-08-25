@@ -11,6 +11,8 @@
 
 ## Prologue
 
+[Previous][prev] | [Next][next]
+
 Riddle 0x01 is a small one:
 
 ```nasm
@@ -71,6 +73,8 @@ This project is licensed under the AGPLv3 license.
 [web-ei]:  https://gitlab.com/error.inside
 [web-xorpd]: https://github.com/xorpd
 [web-sct]: http://www.sctzine.com
+[prev]: ../0x00/README.md
+[next]: ../0x04/README.md
 [challenge]: https://www.xorpd.net/pages/xchg_rax/snip_01.html
 [web-intel-xadd]: https://www.felixcloutier.com/x86/xadd
 [web-wiki-fibo-seq]: https://en.wikipedia.org/wiki/Fibonacci_sequence

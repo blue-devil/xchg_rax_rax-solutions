@@ -11,6 +11,8 @@
 
 ## Prologue
 
+[Previous][prev] | [Next][next]
+
 Small prologue here
 
 ## Tutorial
@@ -51,3 +53,5 @@ This project is licensed under the AGPLv3 license.
 [web-xorpd]: https://github.com/xorpd
 [web-sct]: http://www.sctzine.com
 [challenge]: https://www.xorpd.net/pages/xchg_rax/snip_00.html
+[prev]: ../0x0x/README.md
+[next]: ../0x0y/README.md

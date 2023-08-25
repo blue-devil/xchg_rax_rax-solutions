@@ -11,6 +11,8 @@
 
 ## Prologue
 
+[Previous][prev] | [Next][next]
+
 Riddle 0x02 also a tricky one:
 
 ```nasm
@@ -92,6 +94,8 @@ This project is licensed under the AGPLv3 license.
 [web-ei]:  https://gitlab.com/error.inside
 [web-xorpd]: https://github.com/xorpd
 [web-sct]: http://www.sctzine.com
+[prev]: ../0x01/README.md
+[next]: ../0x03/README.md
 [challenge]: https://www.xorpd.net/pages/xchg_rax/snip_02.html
 [web-intel-neg]: https://www.felixcloutier.com/x86/neg
 [web-intel-sbb]: https://www.felixcloutier.com/x86/sbb

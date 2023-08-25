@@ -11,6 +11,8 @@
 
 ## Prologue
 
+[Next][next]
+
 xorpd's very first assembly snippet is below:
 
 ```nasm
@@ -121,6 +123,7 @@ This project is licensed under the AGPLv3 license.
 [web-ei]:  https://gitlab.com/error.inside
 [web-xorpd]: https://github.com/xorpd
 [web-sct]: http://www.sctzine.com
+[next]: ../0x01/README.md
 [challenge]: https://www.xorpd.net/pages/xchg_rax/snip_00.html
 [web-intel-lea]: https://www.felixcloutier.com/x86/lea.html
 [web-kernel-memory-layout]: https://www.kernel.org/doc/html/v5.6/x86/boot.html#memory-layout
