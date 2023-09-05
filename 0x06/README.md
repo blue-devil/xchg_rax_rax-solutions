@@ -43,7 +43,7 @@ not(a) =  11111111b
     a  = 100000000b
 ```
 
-When you negate a number you first reverser the bits then add 1. This way you
+When you negate a number you first reverse the bits then add 1. This way you
 make a number nagative. In the context of computing.
 
 So what does do the code sniplet above. The first two lines actually does the
