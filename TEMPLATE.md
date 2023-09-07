@@ -3,7 +3,7 @@
 | Title                     | Decription                                       |
 |---------------------------|--------------------------------------------------|
 | Challenge Name            | [0x00][challenge]                                |
-| Date                      | 11/08/2023                                       |
+| Date                      | gg/aa/2023                                       |
 | Challenge Author          | [xorpd][web-xorpd]                               |
 | Abstract                  | Zeroing registers                                |
 | Tools                     | gdb, vim                                         |
@@ -13,7 +13,11 @@
 
 [Previous][prev] | [Next][next]
 
-Small prologue here
+Riddle 0x0_ is:
+
+```nasm
+
+```
 
 ## Tutorial
 
