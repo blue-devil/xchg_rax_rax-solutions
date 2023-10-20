@@ -42,9 +42,9 @@ So the small sniplet rounds the result to the nearest integer.
 
 ## Final Thoughts
 
-Those number's 3rd bit is set: `12,13,14,15` and if yoiu divide them with 8
-th floating point end result is higher then 1,5! So in this case if you need a
-interger you round them upward! And this is what this snplet does ;)
+Those number's 3rd bit is set: `12,13,14,15` and if you divide them with 8
+the floating point end result is higher then 1,5! So in this case if you need a
+integer you round them upward! And this is what this sniplet does ;)
 
 ## Resources
 

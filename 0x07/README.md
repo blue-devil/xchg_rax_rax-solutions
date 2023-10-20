@@ -24,8 +24,8 @@ neg      rax
 
 ## Tutorial
 
-So if our initial rax value is 5, at the end of these 4 intructions ve will
-get rax = 5 again. `inc rax, neg rax` g'ves the result like `not rax`. So what
+So if our initial rax value is 5, at the end of these 4 instructions, we will
+get rax = 5 again. `inc rax, neg rax` gives the result like `not rax`. So what
 is the point:
 
 I want to set `SF - Sign Flag` if `rax` is negative. We have learnt from 6th
@@ -35,7 +35,7 @@ RFLAGS. Remember NOT instruction does not set RFLAGS like the NEG does.
 ## Final Thoughts
 
 So basically this 4 instructions sets `SF - Sign Flag` if rax is negative.
-So you can use your conditional jumps.
+Thus you can use your conditional jumps.
 
 ## Resources
 
